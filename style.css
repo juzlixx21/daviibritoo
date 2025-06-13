@@ -60,7 +60,7 @@ h1 {
 
 /* Aqui está o que você queria: AUMENTAR A FONTE */
 #mensagem {
-  font-size: 2em; /* Pode aumentar pra 3em, 4em etc. */
+  font-size: 5em; /* Pode aumentar pra 3em, 4em etc. */
   color: #4d2c3d; /* Cor garantida, só pra dar contraste */
 }
 
