@@ -76,3 +76,9 @@ h1 {
   10% { opacity: 0.7; }
   100% { transform: translateY(-120vh); opacity: 0; }
 }
+/* Aumentar fonte da cartinha em telas pequenas */
+@media (max-width: 600px) {
+  #cartinha p {
+    font-size: 1.6em;
+  }
+}
