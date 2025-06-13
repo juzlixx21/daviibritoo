@@ -58,6 +58,12 @@ h1 {
   border-radius: 10px;
 }
 
+/* Aqui está o que você queria: AUMENTAR A FONTE */
+#mensagem {
+  font-size: 2em; /* Pode aumentar pra 3em, 4em etc. */
+  color: #4d2c3d; /* Cor garantida, só pra dar contraste */
+}
+
 .hidden {
   display: none;
 }
@@ -76,8 +82,3 @@ h1 {
   10% { opacity: 0.7; }
   100% { transform: translateY(-120vh); opacity: 0; }
 }
-/* Aumentar fonte da cartinha em telas pequenas */
-@media (max-width: 60px) {
-  #cartinha p {
-    font-size: 8.5em;
-  }
