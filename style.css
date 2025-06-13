@@ -13,12 +13,12 @@ body {
 }
 
 h1 {
-  font-size: 2.5em;
+  font-size: 3.5em;
   color: #d63384;
 }
 
 .galeria img {
-  max-width: 90%;
+  max-width: 60%;
   height: auto;
   border-radius: 20px;
   margin: 15px auto;
@@ -34,7 +34,7 @@ h1 {
 #miauBtn {
   margin: 20px;
   padding: 10px 20px;
-  font-size: 1.1em;
+  font-size: 3.1em;
   cursor: pointer;
   border: none;
   border-radius: 10px;
@@ -79,5 +79,5 @@ h1 {
 /* Aumentar fonte da cartinha em telas pequenas */
 @media (max-width: 600px) {
   #cartinha p {
-    font-size: 5.5em;
+    font-size: 8.5em;
   }
