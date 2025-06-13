@@ -81,7 +81,8 @@ h1 {
 /* Aumentar fonte da cartinha em telas pequenas */
 @media (max-width: 600px) {
   #cartinha,
-  #cartinha p {
-    font-size: 2.5em;
+  #cartinha p,
+  #mensagem {
+    font-size: 20px;
   }
 }
