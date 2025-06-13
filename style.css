@@ -54,7 +54,7 @@ h1 {
   max-width: 80%;
   margin-left: auto;
   margin-right: auto;
-  background: rgba(255, 255, 255, 0.8);
+  background: #ffe0f0; /* rosa claro, sólido */
   border-radius: 10px;
 }
 
