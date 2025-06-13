@@ -54,13 +54,13 @@ h1 {
   max-width: 80%;
   margin-left: auto;
   margin-right: auto;
-  background: #ffe0f0; /* rosa claro, sólido */
-  border-radius: 10px;
+  background: #e0f7fa; 
+  border-radius: 9px;
 }
 
 /* Aqui está o que você queria: AUMENTAR A FONTE */
 #mensagem {
-  font-size: 5em; /* Pode aumentar pra 3em, 4em etc. */
+  font-size: 8em; /* Pode aumentar pra 3em, 4em etc. */
   color: #4d2c3d; /* Cor garantida, só pra dar contraste */
 }
 
