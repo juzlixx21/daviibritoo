@@ -47,7 +47,13 @@ h1 {
   background-color: #ec407a;
 }
 
-#cartinha {
+#cartinha p {
+  font-size: 1.4em;
+  text-align: center;
+  font-style: italic;
+  color: #b71c5a;
+}
+
   margin-top: 20px;
   border: 2px dashed #d63384;
   padding: 20px;
