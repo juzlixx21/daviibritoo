@@ -47,13 +47,7 @@ h1 {
   background-color: #ec407a;
 }
 
-#cartinha p {
-  
-  font-size: 1.4em;
-  text-align: center;
-  font-style: italic;
-  color: #b71c5a;
-}
+#cartinha {
   margin-top: 20px;
   border: 2px dashed #d63384;
   padding: 20px;
@@ -62,6 +56,13 @@ h1 {
   margin-right: auto;
   background: rgba(255, 255, 255, 0.8);
   border-radius: 10px;
+}
+
+#cartinha p {
+  font-size: 1.2em;
+  text-align: center;
+  font-style: italic;
+  color: #b71c5a;
 }
 
 .hidden {
@@ -81,4 +82,13 @@ h1 {
   0% { transform: translateY(0); opacity: 0; }
   10% { opacity: 0.7; }
   100% { transform: translateY(-120vh); opacity: 0; }
+}
+
+/* Aumentar fonte da cartinha em telas pequenas */
+@media (max-width: 600px) {
+  #cartinha p {
+    font-size: 1.6em;
+  }
+}
+
 }
