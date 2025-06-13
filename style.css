@@ -55,12 +55,12 @@ h1 {
   margin-left: auto;
   margin-right: auto;
   background: #e0f7fa; 
-  border-radius: 9px;
+  border-radius: 10px;
 }
 
 /* Aqui está o que você queria: AUMENTAR A FONTE */
 #mensagem {
-  font-size: 6em; /* Pode aumentar pra 3em, 4em etc. */
+  font-size: 4em; /* Pode aumentar pra 3em, 4em etc. */
   color: #4d2c3d; /* Cor garantida, só pra dar contraste */
 }
 
